@@ -9,6 +9,7 @@ master:
 replica:
   persistence:
     enabled: false
+  replicaCount: 4
 
 volumePermissions:
   enabled: true
